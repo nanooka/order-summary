@@ -1,189 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
 
 body {
-    background-image: url("./pattern-background-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: #e0e7f8;
-    /* position: absolute; 
+  background-image: url("images/./pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e0e7f8;
+  /* position: absolute; 
     top: 50%;
     left: 50%; 
     transform: translate(-50%, -50%); */
-    font-family: 'Red Hat Display';
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Red Hat Display";
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    width: 279px;
-    height: 567px;;
-    background-color: white;
-    border-radius: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 24px;
-    box-shadow: 0px 40px 40px rgba(13, 48, 189, 0.1518);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 279px;
+  height: 567px;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  box-shadow: 0px 40px 40px rgba(13, 48, 189, 0.1518);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-image {
-    max-width: 327px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-bottom: 17px;
+  max-width: 327px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 17px;
 }
 
 .h1-p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
-    margin: 15px;
-    color: #1F2E55;
-    font-size: 22px;
-    font-weight: 900;
-    
+  margin: 15px;
+  color: #1f2e55;
+  font-size: 22px;
+  font-weight: 900;
 }
 
 p {
-    width: 263px;
-    height: 75px;
-    color: #717FA6;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 25px;
+  width: 263px;
+  height: 75px;
+  color: #717fa6;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 .music {
-    margin: 24px;
-    width: 279px;
-    height: 81px;
-    border-radius: 11px;
-    background-color: #F7F9FF;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  margin: 24px;
+  width: 279px;
+  height: 81px;
+  border-radius: 11px;
+  background-color: #f7f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .anual-price {
-    display: flex;
-    flex-direction: column;
-    margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
 }
 
 div .anual-price a {
-    color: #1F2E55;
-    font-size: 14px;
-    font-weight: 900;
-    margin-bottom: 5px;
+  color: #1f2e55;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 5px;
 }
 
 span {
-    color: #717FA6;
-    font-weight: 500;
-    font-size: 14px;
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .change {
-    color: #382AE1;
-    text-decoration: underline;
-    font-weight: 700;
-    font-size: 13px;
+  color: #382ae1;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .button {
-    color: white;
-    background-color: #382AE1;
-    border: none;
-    border-radius: 11px;
-    box-shadow: 0px 40px 40px rgba(56, 42, 225, 0.1903);
-    width: 279px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 900;
-    font-family: 'Red Hat Display';
-    margin-bottom: 20px;
+  color: white;
+  background-color: #382ae1;
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0px 40px 40px rgba(56, 42, 225, 0.1903);
+  width: 279px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: "Red Hat Display";
+  margin-bottom: 20px;
 }
 
 .cancel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #717FA6;
-    font-weight: 900;
-    font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 15px;
 }
 
+@media screen and (min-width: 720px) {
+  body {
+    background-image: url("images/./pattern-background-desktop.svg");
+  }
 
-@media screen and (min-width: 720px){
-    body {
-        background-image: url("./pattern-background-desktop.svg");
-    }
+  .container {
+    width: 354px;
+    height: 620px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 48px;
+  }
 
-    .container {
-        width: 354px;
-        height: 620px;
-        padding-left: 48px;
-        padding-right: 48px;
-        padding-bottom: 48px;
-    }
+  .main-image {
+    max-width: 450px;
+  }
 
-    .main-image {
-        max-width: 450px;
-    }
+  h1 {
+    font-size: 28px;
+  }
 
-    h1 {
-        font-size: 28px;
-    }
+  p {
+    width: 354px;
+    height: 78px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 
-    p {
-        width: 354px;
-        height: 78px;
-        font-size: 16px;
-        line-height: 26px;
-    }
+  .button {
+    width: 354px;
+  }
 
-    .button {
-        width: 354px;
-    }
+  .music {
+    width: 354px;
+    height: 98px;
+  }
 
-    .music {
-        width: 354px;
-        height: 98px;
-    }
-    
-    .anual-price {
-        margin-right: 120px;
-    }
+  .anual-price {
+    margin-right: 120px;
+  }
 
-    div .anual-price a {
-        font-size: 16px;
-        margin-bottom: 7px;
-        margin-top: 20px;
-    }
+  div .anual-price a {
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-top: 20px;
+  }
 
-    span {
-        font-size: 16px;
-        margin-bottom: 24px;
-    }
+  span {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
 
-    .change, button, .cancel {
-        cursor: pointer;
-    }
-    .change:hover {
-        color: #766CF1
-    }
-    .button:hover {
-        background-color: #766CF1;
-    }
+  .change,
+  button,
+  .cancel {
+    cursor: pointer;
+  }
+  .change:hover {
+    color: #766cf1;
+  }
+  .button:hover {
+    background-color: #766cf1;
+  }
 }
